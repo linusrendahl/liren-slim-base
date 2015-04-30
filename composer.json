@@ -1,0 +1,18 @@
+{
+    "require": {
+        "slim/slim": "2.*",
+        "illuminate/database": "*",
+        "cartalyst/sentry": "2.1.*",
+        "swiftmailer/swiftmailer": "5.3.1",
+        "adamwathan/form": "0.4.0",
+        "illuminate/session": "v4.2.12"
+    },
+    "autoload": {
+    	"classmap": [
+    		"App/Models",
+    		"App/Controllers"
+    	],
+
+        "psr-0": { "App": "app/" }
+    }
+}
